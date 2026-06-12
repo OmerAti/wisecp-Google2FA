@@ -1,0 +1,336 @@
+.g2fa-wrap {
+    max-width: 980px;
+}
+
+.g2fa-setup-wrap {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.g2fa-panel {
+    border: 1px solid #e6e8ee;
+    border-radius: 8px;
+    background: #fff;
+    padding: 22px;
+    margin-bottom: 18px;
+}
+
+.g2fa-verify-wrap {
+    max-width: 760px;
+    margin: 0;
+}
+
+.g2fa-verify-panel {
+    padding: 26px 28px;
+}
+
+.g2fa-verify-panel h2 {
+    margin: 0 0 14px;
+}
+
+.g2fa-verify-form {
+    margin-top: 18px;
+    max-width: 460px;
+}
+
+.g2fa-field {
+    margin-bottom: 12px;
+}
+
+.g2fa-field label {
+    display: block;
+    margin-bottom: 8px;
+    color: #466579;
+    font-weight: 600;
+}
+
+.g2fa-code-input {
+    display: block !important;
+    width: 100% !important;
+    max-width: 420px !important;
+    height: 42px !important;
+    padding: 8px 10px !important;
+    border: 1px solid #cdd8e2 !important;
+    border-radius: 4px !important;
+    background: #fff !important;
+    box-sizing: border-box !important;
+    font-size: 18px !important;
+    letter-spacing: 0 !important;
+}
+
+#g2fa-verify-form,
+#g2fa-verify-form * {
+    box-sizing: border-box;
+}
+
+#g2fa-verify-form .g2fa-field {
+    width: 100%;
+    max-width: 420px;
+}
+
+#g2fa-verify-form .g2fa-code-input {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.g2fa-status {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.g2fa-status.enabled {
+    background: #eaf7ef;
+    color: #227343;
+}
+
+.g2fa-status.disabled {
+    background: #f5f6f8;
+    color: #60646c;
+}
+
+.g2fa-grid {
+    display: grid;
+    grid-template-columns: minmax(240px, 280px) 1fr;
+    gap: 24px;
+    align-items: start;
+}
+
+.g2fa-qr {
+    width: 260px;
+    height: 260px;
+    border: 1px solid #e6e8ee;
+    border-radius: 8px;
+    padding: 8px;
+    background: #fff;
+}
+
+.g2fa-modal {
+    border: 1px solid #dfe6ee;
+    border-top: 4px solid #7fbf3f;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 16px 45px rgba(25, 45, 70, .14);
+    padding: 0;
+    overflow: hidden;
+}
+
+.g2fa-modal-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 24px 14px;
+    border-bottom: 1px solid #eef1f5;
+}
+
+.g2fa-modal-head h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+.g2fa-badge {
+    display: inline-block;
+    padding: 4px 9px;
+    border-radius: 4px;
+    background: #edf8f1;
+    color: #267146;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.g2fa-close {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dde3ea;
+    border-radius: 50%;
+    color: #5c6a78;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.g2fa-notice {
+    margin: 18px 24px 0;
+    padding: 12px 14px;
+    border: 1px solid #cfe7f6;
+    border-radius: 6px;
+    background: #f0f9ff;
+    color: #3d6d86;
+}
+
+.g2fa-modal .g2fa-grid {
+    padding: 22px 24px 24px;
+}
+
+.g2fa-qr-box {
+    text-align: center;
+}
+
+.g2fa-app-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.g2fa-store {
+    display: block;
+    padding: 9px 10px;
+    border: 1px solid #dfe6ee;
+    border-radius: 6px;
+    background: #f8fafc;
+    color: #3e6072;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.g2fa-copy {
+    margin-top: 0;
+}
+
+.g2fa-form {
+    margin-top: 18px;
+}
+
+.g2fa-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 14px;
+}
+
+.g2fa-verify-form .g2fa-actions {
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 420px;
+}
+
+.g2fa-submit {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px !important;
+    width: auto !important;
+    max-width: 220px !important;
+    height: 42px !important;
+    padding: 0 26px !important;
+    border: 0 !important;
+    border-radius: 4px !important;
+    background: #85c443 !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    cursor: pointer;
+}
+
+.g2fa-check {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    width: auto !important;
+    max-width: 420px;
+    margin: 8px 0 16px !important;
+    font-weight: 600;
+    color: #486172;
+    cursor: pointer;
+    clear: both;
+}
+
+.g2fa-check input {
+    appearance: auto !important;
+    -webkit-appearance: checkbox !important;
+    display: inline-block !important;
+    position: static !important;
+    float: none !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    vertical-align: middle !important;
+    flex: 0 0 16px;
+}
+
+.g2fa-check span {
+    display: inline-block;
+    line-height: 1.4;
+    white-space: normal;
+}
+
+#g2fa-verify-form .g2fa-check input[type="checkbox"] {
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
+}
+
+#g2fa-verify-form .g2fa-submit {
+    margin: 0 !important;
+}
+
+.g2fa-secret {
+    font-family: Consolas, Monaco, monospace;
+    word-break: break-all;
+    background: #f6f7f9;
+    border: 1px solid #e6e8ee;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.g2fa-codes {
+    columns: 2;
+    font-family: Consolas, Monaco, monospace;
+    line-height: 1.9;
+}
+
+.g2fa-alert {
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin-bottom: 14px;
+}
+
+.g2fa-alert.error {
+    background: #fff1f0;
+    color: #9f1d1d;
+}
+
+.g2fa-alert.success {
+    background: #edf8f1;
+    color: #20643b;
+}
+
+@media (max-width: 720px) {
+    .g2fa-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .g2fa-modal .g2fa-grid {
+        padding: 18px;
+    }
+
+    .g2fa-modal-head {
+        padding: 18px;
+    }
+
+    .g2fa-notice {
+        margin: 14px 18px 0;
+    }
+
+    .g2fa-actions {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    .g2fa-qr {
+        width: 230px;
+        height: 230px;
+    }
+}
